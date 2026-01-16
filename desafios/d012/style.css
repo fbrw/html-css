@@ -100,3 +100,14 @@ footer{
     
 }
 
+/*iOS não aceita parallax, abaixo está a solução*/
+
+@media(max-width:360px){
+    #img1{
+     background-attachment: scroll;
+    }
+    #img2{
+        background-attachment: scroll;
+    }
+}
+
