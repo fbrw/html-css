@@ -11,6 +11,15 @@ body{
     width: 100vw;
 }
 
+iframe {
+    position: relative;
+    top:80px;
+    left: 22px;
+    width: 270px;
+    height: 471px;
+   
+}
+
 main{
     position: relative;
     background-color: tomato;
