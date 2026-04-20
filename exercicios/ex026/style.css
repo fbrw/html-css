@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+  @media  and (orientation: portrait){
+            body{
+            background-image: url(imagens/back-pc.jpg);
+            width:100vh;
+            background-repeat:no-repeat;
+            background-size:cover;
+        }
+        }
+        
