@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media print {
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#pc{display: none;}
+    img#tv{display: none;}
+    img#print{display: block;}
+}
