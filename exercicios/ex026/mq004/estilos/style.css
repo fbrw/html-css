@@ -36,12 +36,17 @@ img{
     margin: auto;
 }
 
-main{
-    border: 1px solid black;
-}
+
 
 img#phone{display: block;}
 img#tablet{display: none;}
 img#pc{display: none;}
 img#tv{display: none;}
 img#print{display: none;}
+
+h2::before {
+  content: "Versão Smartphone";}
+
+h2{
+    font-size: 0.5em;
+}
