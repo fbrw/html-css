@@ -13,21 +13,21 @@ Grandes telas: acima de 1200px
 
     @media screen and (min-width:768px) {
 
-             menu{
-                display: block;
-            }
-
             span#burger {
                 display: none;
+            }
+
+            menu{
+               display: block !important; 
             }
 
             menu ul li{
                 display: inline-block;
             }
 
-             main{
-            max-width: 850px;
-        }
+            main{
+               max-width: 850px;
+            }
             
     }
 
