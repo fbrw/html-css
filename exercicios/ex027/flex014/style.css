@@ -19,7 +19,7 @@ h1, h2{
     line-height: 1.2em;
 }
 
- p {
+p {
     margin-bottom: 10px;
     text-align: justify;
 }
@@ -31,9 +31,9 @@ header, section.normal {
 
 section.flex-content {
     padding: 20px;
-     background-color: lightgray;
-     display: flex;
-     flex-flow: column nowrap;
+    background-color: lightgray;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 
@@ -56,8 +56,6 @@ div.text{
 }
 div.media{
     flex: 1 0 400px;
-
-    
 }
 
 .media img {
